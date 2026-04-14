@@ -87,4 +87,4 @@ ESC - Pause
 
 ## Author
 
-M. Hisyam Al Firdaus
+M. Hisyam Al Firdaus, Abdan Nawwaf El Hibban
