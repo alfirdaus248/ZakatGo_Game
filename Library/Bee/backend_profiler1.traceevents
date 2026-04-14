@@ -1,0 +1,597 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1765288141154186, "dur":2030, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288141156228, "dur":209, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1765288141156505, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1765288141156547, "dur":1468, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1765288141158138, "dur":1245, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288141159383, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247274, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247283, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247330, "dur":209, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247539, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247581, "dur":97, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247678, "dur":68, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247746, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247753, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247774, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247778, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247799, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247804, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247821, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247825, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247847, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247852, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247874, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247878, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247899, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247903, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247919, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247922, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247943, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247947, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142247963, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142248004, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142248040, "dur":3137, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1765288141157787, "dur":1632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141159457, "dur":6090, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141165573, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1765288141165588, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141165763, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1765288141165775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141168940, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1765288141174833, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1765288141174912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141176132, "dur":6021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1765288141182189, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1765288141182252, "dur":115, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141182380, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1765288141184960, "dur":247639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141432607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141432660, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141439217, "dur":18348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Poly2Tri.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141457575, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141457594, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Poly2Tri.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141460704, "dur":21886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141482601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141482621, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141484495, "dur":93464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141577970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141577988, "dur":21265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141599275, "dur":19128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Formats.Fbx.Runtime.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141618412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141618430, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Formats.Fbx.Runtime.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141620317, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141620350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141620365, "dur":56506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141676899, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141676930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141676945, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141684389, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141684421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141684499, "dur":6128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141690653, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141690686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141690698, "dur":14258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141704996, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141705027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141705045, "dur":11109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1765288141716184, "dur":24058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Autodesk.Fbx.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141740253, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141740314, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Autodesk.Fbx.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1765288141744309, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1765288141744444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141744486, "dur":3921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1765288141748443, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1765288141748480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141748498, "dur":9277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1765288141757803, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1765288141757833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141757866, "dur":19017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1765288141776911, "dur":23541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1765288141800503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141800521, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1765288141805811, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1765288141805838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141805848, "dur":13833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1765288141819732, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1765288141819765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1765288141819777, "dur":7300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1765288141827102, "dur":419852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141158788, "dur":889, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141159677, "dur":5930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141165629, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1765288141165727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141172111, "dur":9740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1765288141181881, "dur":35529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1765288141217421, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141217446, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1765288141221218, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141221277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141221291, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141224445, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141224488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141224501, "dur":6958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141231491, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141231531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141231550, "dur":5094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141236688, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141236720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141236733, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141240936, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141240971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141240984, "dur":8423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141249453, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141249490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141249507, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141252169, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141252214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141252228, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141256452, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141256491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141256504, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141259539, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141259572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141259585, "dur":7524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141267131, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141267175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141267188, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141273356, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141273387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141273400, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141276718, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141276754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141276766, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141281711, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141281932, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141281950, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141285150, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141285184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141285196, "dur":6602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141291828, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141291858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141291871, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141295637, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141295669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141295685, "dur":3992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141299699, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141299728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141299785, "dur":4961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141304773, "dur":167977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141472761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141472781, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288141475245, "dur":24266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.KdTree.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1765288141499590, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288141499609, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.KdTree.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1765288141501463, "dur":743023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288142244495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1765288142244511, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1765288142246874, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1765288142246878, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141157933, "dur":1531, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141159465, "dur":6101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141165572, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1765288141165696, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141175096, "dur":7065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1765288141182196, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1765288141182254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141182437, "dur":19733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1765288141202208, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141202260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141211249, "dur":9799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141221081, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141221118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141221139, "dur":3768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141224944, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141224990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141225003, "dur":7005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141232048, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141232131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141232147, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141235884, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141235916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141235929, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141240477, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141240510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141240523, "dur":5808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141246359, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141246390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141246408, "dur":5324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141251764, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141251797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141251813, "dur":4071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141255935, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141255970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141255986, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141259197, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141259230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141259243, "dur":7711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141266981, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141267021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141267036, "dur":5911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141272979, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141273054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141273067, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141277828, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141277868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141277881, "dur":6082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141284011, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141284065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141284079, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141286200, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141286239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141286251, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141290448, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141290481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141290496, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141293914, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141293956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141293969, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141297578, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141297611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141297624, "dur":4448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141302096, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141302127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141302140, "dur":5783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141307953, "dur":25542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1765288141333507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141333524, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1765288141335661, "dur":261056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141596728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141596786, "dur":18809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141615622, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141615655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141615672, "dur":59493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141675201, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141675233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141675250, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141681626, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141681661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141681675, "dur":7930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141689632, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141689664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141689679, "dur":6996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141696704, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141696733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141696852, "dur":10622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141707503, "dur":2628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141710185, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288141710212, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288141712334, "dur":502430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288142214775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1765288142214794, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1765288142217303, "dur":29696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1765288141158101, "dur":1425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1765288141159527, "dur":6305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1765288141165852, "dur":28922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1765288141194785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1765288141194873, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1765288141197156, "dur":895259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1765288142092425, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1765288142092441, "dur":53759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1765288142146237, "dur":100734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141158203, "dur":1354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141159558, "dur":6218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141165799, "dur":30288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1765288141196096, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141196139, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1765288141198286, "dur":246145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1765288141444440, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141444457, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1765288141449320, "dur":223776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1765288141673107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141673128, "dur":76874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1765288141750039, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1765288141750078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141750095, "dur":25992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1765288141776151, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1765288141776474, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141776498, "dur":29465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1765288141805991, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1765288141806021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141806034, "dur":16275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1765288141822337, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1765288141822511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1765288141822524, "dur":9250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1765288141832158, "dur":414793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1765288141158297, "dur":1283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1765288141159580, "dur":6217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1765288141165809, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1765288141165882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1765288141172156, "dur":4491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1765288141176688, "dur":177674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1765288141354373, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1765288141354398, "dur":21287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1765288141375718, "dur":633092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1765288142008821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1765288142008840, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1765288142010660, "dur":236338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141158402, "dur":1199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141159601, "dur":6257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141165859, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1765288141166006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141172011, "dur":28993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1765288141201037, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1765288141201137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141210844, "dur":11418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1765288141222302, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141222349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141222363, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141226115, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141226154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141226167, "dur":9604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141235795, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141235828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141235844, "dur":4945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141240832, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141240881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141240894, "dur":6656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141247580, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141247624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141247640, "dur":4327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141251994, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141252025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141252038, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141256013, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141256044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141256058, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141258944, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141258975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141258989, "dur":7278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141266298, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141266467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141266484, "dur":5735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141272252, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141272305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141272323, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141276448, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141276498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141276511, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141281969, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141282001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141282014, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141284734, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141284760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141284772, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141288418, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141288449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141288465, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141293408, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141293444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141293504, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141295958, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141296003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141296017, "dur":5535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141301581, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141301609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141301623, "dur":8525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141310176, "dur":287765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141597949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141597965, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141599967, "dur":2297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141602273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141602292, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141604348, "dur":214980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.AI.Navigation.Samples.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141819338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1765288141819709, "dur":21738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.AI.Navigation.Samples.dll" }}
+,{ "pid":12345, "tid":7, "ts":1765288141841475, "dur":405601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141158506, "dur":1115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141159621, "dur":6074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141165723, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1765288141165810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141172585, "dur":7896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1765288141180533, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1765288141180727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141180767, "dur":12445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1765288141193249, "dur":561165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1765288141754421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141754435, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1765288141756424, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141756462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141756476, "dur":26618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141783134, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141783190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141783246, "dur":20713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141803997, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141804032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141804048, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141806074, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141806101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141806112, "dur":13230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141819388, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141819495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1765288141819512, "dur":10293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1765288141829830, "dur":417182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141158602, "dur":1035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141159637, "dur":5998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141165657, "dur":31132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1765288141196797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141196871, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1765288141200016, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo.exe" }}
+,{ "pid":12345, "tid":9, "ts":1765288141201369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141201379, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo.exe" }}
+,{ "pid":12345, "tid":9, "ts":1765288141204059, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141204092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141213413, "dur":11566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141225005, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141225050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141225065, "dur":8313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141233415, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141233462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141233477, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141237668, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141237735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141237749, "dur":5384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141243193, "dur":424820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141668027, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141668048, "dur":9608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141677686, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141677717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141677730, "dur":11909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141689669, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141689704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141689717, "dur":7735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141697475, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141697512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141697525, "dur":13991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1765288141711562, "dur":23297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1765288141734869, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141734888, "dur":9432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1765288141744344, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":9, "ts":1765288141744438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141744453, "dur":12428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":9, "ts":1765288141756905, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1765288141756935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141756991, "dur":11238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1765288141768263, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1765288141768298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141768316, "dur":19237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1765288141787595, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1765288141787629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141787646, "dur":18002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1765288141805675, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1765288141805718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141805732, "dur":8632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1765288141814392, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1765288141814416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141814430, "dur":6088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1765288141820549, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1765288141820581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1765288141820592, "dur":6113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1765288141826732, "dur":420423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141158752, "dur":906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141159659, "dur":6004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141165681, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1765288141165755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141172050, "dur":9864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1765288141182064, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1765288141182151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141182169, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1765288141184603, "dur":173767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141358378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141371051, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141373077, "dur":289753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141662840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141662859, "dur":20625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141683517, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141683572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141683587, "dur":10904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141694520, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141694597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141694612, "dur":12575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141707223, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141707255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141707275, "dur":15034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141722345, "dur":7284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141729637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288141729654, "dur":13504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288141743185, "dur":463684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288142206881, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1765288142206902, "dur":4826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1765288142211760, "dur":35293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141158007, "dur":1495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141159503, "dur":6046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141165570, "dur":145476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1765288141311055, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141333241, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1765288141337040, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141337074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141337092, "dur":19527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141356658, "dur":32189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141388859, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141388925, "dur":14283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141403242, "dur":28956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Stl.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141432208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141432226, "dur":170223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Stl.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141602479, "dur":18087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.AI.Navigation.Samples.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141620573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141620587, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.AI.Navigation.Samples.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141622149, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141622178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141622190, "dur":58329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141680552, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141680584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141680601, "dur":12303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141692932, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141693005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141693020, "dur":14199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1765288141707246, "dur":21266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/FbxBuildTestAssets.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141728523, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141728547, "dur":17151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/FbxBuildTestAssets.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1765288141745729, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1765288141745761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141745776, "dur":11597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1765288141757405, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1765288141757496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1765288141757507, "dur":111069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1765288141868609, "dur":378418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141158899, "dur":794, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141159693, "dur":5876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141165589, "dur":38847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1765288141204588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141204631, "dur":10735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1765288141215412, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141215472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141215516, "dur":9502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141225040, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141225078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141225092, "dur":10707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141235819, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141235884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141235896, "dur":5042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141240963, "dur":19973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141260945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141260961, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141263143, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141263177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141263195, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141267244, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141267276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141267380, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141272529, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141272564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141272578, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141276365, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141276394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141276407, "dur":6174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141282604, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141282631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141282643, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141285217, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141285287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141285299, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141291105, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141291165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141291179, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141296325, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141296389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141296401, "dur":6875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141303309, "dur":19703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141323024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141323044, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141324909, "dur":44463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141369382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141369401, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141374030, "dur":20250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141394291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141394309, "dur":12607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141406947, "dur":117380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141524338, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141524358, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141525975, "dur":17775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Csg.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141543761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141543779, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Csg.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141545970, "dur":140735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141686715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141686732, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141692982, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141693015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141693030, "dur":12342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141705397, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141705425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141705437, "dur":18699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1765288141724164, "dur":29122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141753299, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1765288141753320, "dur":84491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/L/FILE/SMT5/MultimediaGame/Projek/ZakatGoDev/ZakatGo_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1765288141837861, "dur":409248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1765288142254084, "dur":5092, "ph":"X", "name": "ProfilerWriteOutput" }
+,
