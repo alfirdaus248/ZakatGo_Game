@@ -1,7 +1,3 @@
-Here’s a clean **README.md** you can copy-paste directly into your GitHub repo (no emojis, professional style, ready for portfolio):
-
----
-
 # Zakat GO!
 
 ## Overview
